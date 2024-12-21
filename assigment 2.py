@@ -8,7 +8,8 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
-    # 1. Inserting a Node at Any Given Position in a Singly Linked List
+    # 1. Inserting a Node at Any Given Position in a Singly Linked List list
+    
     def insert_node(self, data, position):
         new_node = Node(data)
         if position == 0:
