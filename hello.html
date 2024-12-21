@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--supports all characters in many languages and symbols and characters-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--view point setting for web and mobile-->
+    <title>Birdwatching</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #b7ffa4;
+        color: black;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #66ff00;
+        padding: 10px;
+        text-align: center;
+        font-size: 2em;
+        font-family: fantasy;
+        color: #121a00;
+        text-shadow: 2px 1px black;
+      }
+      nav {
+        background-color: #66ff00;
+        overflow: hidden;
+        text-align: center;
+      }
+      nav a {
+        display: inline-block;
+        color: black;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        background-color: #b7ffa4;
+        text-align: justify;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+      }
+      .welcome {
+        width: 50%;
+        background-color: #66ff00;
+        padding: 20px;
+        text-align: left;
+      }
+      .welcome h2 {
+        font-family: fantasy;
+      }
+      .favourite-photos {
+        width: 50%;
+        background-color: #66ff00;
+        padding: 20px;
+        text-align: center;
+      }
+      .favourite-photos h2 {
+        font-family: fantasy;
+      }
+      .favourite-photos img {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        margin: 10px;
+      }
+      footer {
+        background-color: #b7ffa4;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+      }
+      footer a {
+        color: rgb(51, 121, 225);
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>BIRDWATCHING</div>
+    </header>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">GET STARTED</a>
+      <a href="#">PHOTOS</a>
+      <a href="#">GEAR</a>
+      <a href="#">FORUM</a>
+    </nav>
+    <div class="container">
+      <div class="welcome">
+        <h2>WELCOME</h2>
+        <p>
+          Welcome to our fake birdwatching site. If this were a real site, it
+          would be the ideal place to come to learn more about birdwatching,
+          whether you are a beginner looking to learn how to get into birding,
+          or an expert wanting to share ideas, tips, and photos with other
+          like-minded people.
+        </p>
+        <p>
+          So don't waste time! Get what you need, then turn off that computer
+          and get out into the great outdoors!
+        </p>
+      </div>
+      <div class="favourite-photos">
+        <h2>FAVOURITE PHOTOS</h2>
+        <img src="images/bird1.jpg" alt="Bird 1" />
+        <img src="images/bird2.jpg" alt="Bird 2" />
+        <img src="images/bird3.jpg" alt="Bird 3" />
+        <img src="images/bird 4.jpg" alt="Bird 4" />
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        This fake website example is CC0 — any part of this code may be reused
+        in any way you wish. Original example written by Chris Mills, 2016.
+      </p>
+      <p><a href="https://example.com/dove-icon">Dove icon</a> by Lorc.</p>
+    </footer>
+  </body>
+</html>
